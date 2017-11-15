@@ -1,0 +1,14 @@
+Added belwo dependencies in build.gradle file 
+
+dependencies {
+
+    compile('com.google.guava:guava:22.0'){
+        force = true
+    }
+    
+Reason : there was exception while using other guava version (copatabality issue)hence added guava 22.0 as force use.
+Exception in thread "Thread-4" java.lang.IllegalAccessError:tried to access method com.google.common.util.concurrent.SimpleTimeLimiter
+
+Thanks
+Archana
+
